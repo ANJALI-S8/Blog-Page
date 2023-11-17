@@ -1,0 +1,43 @@
+.contact-content{
+  height:395px;
+  height: 80vh;
+  /* background-color: rgb(231, 154, 154);*/
+   margin-top: 32px;
+   padding: 9px;
+   position: relative;
+   overflow: hidden;
+ 
+}
+.contact-content::after{
+  content: "";
+  background-image: url(/img/bg.jpg);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: inherit;
+  opacity: 0.15;
+  border-radius: 12px;
+  z-index: -1;
+}
+.nav-left img{
+  width:300px;
+}
+.about-content{
+  height: 120vh;
+  margin-top: 32px;
+  padding: 9px;
+  position: relative;
+  overflow: hidden;
+  
+}
+.about-content::after{
+  content: "";
+  background-image: url(/img/bg.jpg);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: inherit;
+  opacity: 0.15;
+  border-radius: 12px;
+  z-index: -1;
+}
